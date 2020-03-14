@@ -3,10 +3,13 @@
 [img]https://i.imgur.com/dwxIOT4.gif[/img]
 
 [h1]What Does This Mod Do?[/h1]
-By default makes all DLC engrams learnable up to Genesis on any map.
+By default makes all DLC engrams learnable up to Genesis on any map at their appropriate levels.
 
 [h1]Is This Mod Compatible With Other Mods?[/h1]
 This mod, by design, should not conflict with any other mods. This includes any that add or modify engrams in the game. That being said, [b]it should be either at the bottom of the load order or as close to the bottom as possible[/b].
+
+[h1]Once I Add the Mod is There Anything I Need to Do in Game to Get it Working?[/h1]
+It should work for all the players on your server as soon as they log in. However, I do recommend using a mindwipe tonic on any existing characters once the mod is applied to guarantee that all engrams show up appropriately and to redistribute points into those newly unlocked engrams.
 
 [h1]Are There Any Customization Options for This Mod in the INI File?[/h1]
 Yes. Right now, all engrams are learnable by default, but if you want a specific DLC's engrams to remain locked, you can add the [code][MontesEngramUnlocker][/code] tag to your GameUserSettings.ini file and add any of the following that correspond to the DLC you would like to remain locked underneath.
@@ -16,5 +19,9 @@ EnableExtinctionEngrams=false
 EnableGenesisEngrams=false[/code]
 
 Note: This mod will only unlock engrams and cannot be used to remove engrams that are already part of the game (i.e. SE engrams in the SE map).
+
+[h1]Plans for the Future[/h1]
+[list][*]Remove Beta tag once the mod has been thoroughly beta tested.
+[*]Add option to auto unlock tekgrams at level 80.[/list]
 
 [b]Special thanks to Kozenomenon for helping me put this mod together.[/b]

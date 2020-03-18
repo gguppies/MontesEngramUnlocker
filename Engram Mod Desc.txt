@@ -35,3 +35,9 @@ If you would like to support this mod and upcoming mod releases by donating, ple
 [url=https://www.patreon.com/montegor?fan_landing=true][img]https://i.imgur.com/AggP1Wt.png[/img][/url]
 
 [b]Special thanks to Kozenomenon for helping me put this mod together.[/b]
+
+
+
+
+
+[list] [*]Updated Icon [*]Removed Beta Tag [*]Added Ability to Auto-Learn Tekgrams at Level 80[/list]

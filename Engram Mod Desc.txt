@@ -3,7 +3,7 @@
 [img]https://i.imgur.com/dwxIOT4.gif[/img]
 
 [h1]What Does This Mod Do?[/h1]
-By default makes all DLC engrams learnable up to Genesis on any map at their appropriate levels.
+By default makes all DLC engrams learnable up to Genesis on any map at their appropriate levels. The mod will also auto unlock all tekgrams at level 80 if the UnlockAllTekgrams INI setting is set to true (further instructions below).
 
 [h1]Is This Mod Compatible With Other Mods?[/h1]
 This mod, by design, should not conflict with any other mods. This includes any that add or modify engrams in the game. That being said, [b]it should be either at the bottom of the load order or as close to the bottom as possible[/b].
@@ -12,16 +12,26 @@ This mod, by design, should not conflict with any other mods. This includes any 
 It should work for all the players on your server as soon as they log in. However, I do recommend using a mindwipe tonic on any existing characters once the mod is applied to guarantee that all engrams show up appropriately and to redistribute points into those newly unlocked engrams.
 
 [h1]Are There Any Customization Options for This Mod in the INI File?[/h1]
-Yes. Right now, all engrams are learnable by default, but if you want a specific DLC's engrams to remain locked, you can add the [code][MontesEngramUnlocker][/code] tag to your GameUserSettings.ini file and add any of the following that correspond to the DLC you would like to remain locked underneath.
+Right now, all DLC engrams are learnable by default, but if you want a specific DLC's engrams to remain locked, you can add the [code][MontesEngramUnlocker][/code] tag to your GameUserSettings.ini file and add any of the following that correspond to the DLC you would like to remain locked underneath.
 [code]EnableScorchedEarthEngrams=false
 EnableAberrationEngrams=false
 EnableExtinctionEngrams=false
 EnableGenesisEngrams=false[/code]
+You can also enable the ability to auto learn all Tekgrams at level 80 by adding the following to your GameUserSettings.ini file.
+[code]UnlockAllTekgrams=true[/code]
+This is disabled by default, so make sure to add the line above if you would like to make this functionality available.
 
 Note: This mod will only unlock engrams and cannot be used to remove engrams that are already part of the game (i.e. SE engrams in the SE map).
 
-[h1]Plans for the Future[/h1]
-[list][*]Remove Beta tag once the mod has been thoroughly beta tested.
-[*]Add option to auto unlock tekgrams at level 80.[/list]
+[h1]Updates for Monte's Engram Unlocker[/h1]
+The latest update adding the ability to unlock Tekgrams by enabling a setting in the server's GameUserSettings.ini file has been released. Hope you guys enjoy the update! Let me know if you have any questions or suggestions for additional features. I will update this as the need arises with any upcoming updates.
+
+[h1]Do You Have a Discord Channel I Could Join?[/h1]
+Yes I do. If you click the invite link below you be able to join the server. There aren't many channels at the moment, but I will be adding more as I release more mods. Hope to see you guys there!
+[url=https://discord.gg/3My7Wte][img]https://i.imgur.com/X6uQF13.png[/img][/url]
+
+[h1]Donations[/h1]
+If you would like to support this mod and upcoming mod releases by donating, please feel free to check out my Patreon page. Thanks for your support!
+[url=https://www.patreon.com/montegor?fan_landing=true][img]https://i.imgur.com/AggP1Wt.png[/img][/url]
 
 [b]Special thanks to Kozenomenon for helping me put this mod together.[/b]

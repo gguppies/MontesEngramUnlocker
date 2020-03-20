@@ -3,7 +3,7 @@
 [img]https://i.imgur.com/dwxIOT4.gif[/img]
 
 [h1]What Does This Mod Do?[/h1]
-By default makes all DLC engrams learnable up to Genesis on any map at their appropriate levels. The mod will also auto unlock all tekgrams at level 80 if the UnlockAllTekgrams INI setting is set to true (further instructions below).
+By default makes all DLC engrams learnable up to Genesis on any map at their appropriate levels. The mod will also auto unlock all tekgrams if the UnlockAllTekgrams INI setting is set to true at level 80 by default or select level if the CharacterUnlockLevelTek INI setting is set to a number greater than 0 (further instructions below).
 
 [h1]Is This Mod Compatible With Other Mods?[/h1]
 This mod, by design, should not conflict with any other mods. This includes any that add or modify engrams in the game. That being said, [b]it should be either at the bottom of the load order or as close to the bottom as possible[/b].
@@ -20,11 +20,13 @@ EnableGenesisEngrams=false[/code]
 You can also enable the ability to auto learn all Tekgrams at level 80 by adding the following to your GameUserSettings.ini file.
 [code]UnlockAllTekgrams=true[/code]
 This is disabled by default, so make sure to add the line above if you would like to make this functionality available.
+If you would like to unlock the tekgrams at a level other than 80, you can set your own level requirement by entering a number greater than 0 in the following option also in the GameUserSettings.ini file.
+[code]CharacterUnlockLevelTek={number}[/code]
 
-Note: This mod will only unlock engrams and cannot be used to remove engrams that are already part of the game (i.e. SE engrams in the SE map).
+Note: This mod will only unlock engrams and cannot be used to remove engrams that are already part of the game or tekgrams that are already unlocked (i.e. SE engrams in the SE map).
 
 [h1]Updates for Monte's Engram Unlocker[/h1]
-The latest update adding the ability to unlock Tekgrams by enabling a setting in the server's GameUserSettings.ini file has been released. Hope you guys enjoy the update! Let me know if you have any questions or suggestions for additional features. I will update this as the need arises with any upcoming updates.
+The latest update fixed a few existing bugs with the unlock Tekgrams functionality and added the ability to control the level at which tekgrams are unlocked by adding the value in the server's GameUserSettings.ini file. Hope you guys enjoy the update! Let me know if you have any questions or suggestions for additional features. I will update this as the need arises with any upcoming updates.
 
 [h1]Do You Have a Discord Channel I Could Join?[/h1]
 Yes I do. If you click the invite link below you be able to join the server. There aren't many channels at the moment, but I will be adding more as I release more mods. Hope to see you guys there!
